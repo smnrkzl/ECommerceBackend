@@ -1,0 +1,14 @@
+﻿using Core.DataAccess;
+using Entities.Concrete;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DataAccess.Abstract
+{
+    public interface IEmailParameterDal:IEntityRepository<EmailParameter>
+    {
+    }//hocam IEntity yapısını entites katmanına taşıdım sorun olur mu olmaz. teşekkür ederim 
+}
